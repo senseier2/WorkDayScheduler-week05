@@ -5,7 +5,7 @@ body {
 }
 
 textarea {
-  background: grey;
+  background: transparent;
   border: none;
   resize: none;
   color: #000000;
@@ -15,7 +15,7 @@ textarea {
 
 .jumbotron {
   text-align: center;
-  background-color: lightgrey;
+  background-color: transparent;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -44,17 +44,17 @@ textarea {
 
 .past {
   background-color: #d3d3d3;
-  color: red;
+  color: white;
 }
 
 .present {
   background-color: #ff6961;
-  color: grey;
+  color: white;
 }
 
 .future {
   background-color: #77dd77;
-  color: green;
+  color: white;
 }
 
 .saveBtn {
@@ -62,10 +62,10 @@ textarea {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
-  color: white;
+  color:white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all 0.3s ease-in-out;
+  transition: all 1s ease-in-out;
 }
