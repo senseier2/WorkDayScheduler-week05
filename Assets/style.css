@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-image: url("./tribal-seamless-pattern-with-maya-ancient-face-abstract_37925-1247.webp");
 }
 
 textarea {
@@ -16,10 +17,16 @@ textarea {
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: rgb(179, 116, 0);
   color: black;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   border-radius: 0;
   border-bottom: 10px solid black;
+}
+
+.jumbotron h1 {
+  text-shadow: 2px 2px 4px white;
 }
 
 .description {
@@ -34,13 +41,15 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 111px;
-  border-top: 1px solid white;
+  border-top: 1px solid black;
 }
 
 .hour {
-  background-color: lightblue;
+  background-color: rgb(194, 126, 0);
   color: #000000;
+  font-weight: bold;
   border-top: 1px dashed #000000;
+  padding-top: 40px;
 }
 
 .past {
@@ -62,11 +71,35 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: rgb(255, 191, 72);
   color:white;
 }
 
 .saveBtn i:hover {
   font-size: 25px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+/*Media query for smaller screens*/
+
+@media screen and (max-width: 768px), screen and (max-width: 575px) {
+  .row {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .hour {
+    padding-right: 10%;
+  }
+
+  .saveBtn {
+    border: 0;
+    border-radius: .25rem;
+    height: 50px;
+  }
+
+  textarea {
+    min-height: 75px;
+    border: 0;
+  }
 }

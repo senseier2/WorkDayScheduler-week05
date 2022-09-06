@@ -35,16 +35,16 @@ $(document).ready(function() {
 
   //Get local storage and update the schedule on refresh
 
-  $("#hour1 .description").val(localStorage.getItem("hour1"));
-  $("#hour2 .description").val(localStorage.getItem("hour2"));
-  $("#hour3 .description").val(localStorage.getItem("hour3"));
-  $("#hour4 .description").val(localStorage.getItem("hour4"));
-  $("#hour5 .description").val(localStorage.getItem("hour5"));
-  $("#hour6 .description").val(localStorage.getItem("hour6"));
-  $("#hour7 .description").val(localStorage.getItem("hour7"));
-  $("#hour8 .description").val(localStorage.getItem("hour8"));
-  $("#hour9 .description").val(localStorage.getItem("hour9"));
-  $("#hour10 .description").val(localStorage.getItem("hour10"));
+  $("#hour1 .notes").val(localStorage.getItem("hour1"));
+  $("#hour2 .notes").val(localStorage.getItem("hour2"));
+  $("#hour3 .notes").val(localStorage.getItem("hour3"));
+  $("#hour4 .notes").val(localStorage.getItem("hour4"));
+  $("#hour5 .notes").val(localStorage.getItem("hour5"));
+  $("#hour6 .notes").val(localStorage.getItem("hour6"));
+  $("#hour7 .notes").val(localStorage.getItem("hour7"));
+  $("#hour8 .notes").val(localStorage.getItem("hour8"));
+  $("#hour9 .notes").val(localStorage.getItem("hour9"));
+  $("#hour10 .notes").val(localStorage.getItem("hour10"));
 
 
   trackTime();
